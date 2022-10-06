@@ -1,0 +1,135 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header {
+    font-family: 'Courier New', Courier, monospace;
+    font-size:larger;
+    color: red;    
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px 100px 0;
+}
+
+.header a {
+    font-family: 'Courier New', Courier, monospace;
+    font-size:larger;
+    margin-left: 10%;
+}
+
+#timer {
+    margin: 0 5% 0 0;
+}
+
+.welcome-page {
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+text-align: center;
+justify-content: center;
+margin-bottom: 15px;
+}
+
+.welcome {
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%; 
+}
+
+.container {
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+#question-container {
+    width: 60%;
+
+}
+
+.btn {
+    width: 100%;
+    background-color: var(--before-color);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin: 5px 0 5px 0; 
+    font-size: 20px;   
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+}
+
+.start-btn {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+}
+
+.start-btn:hover,
+.btn:hover{
+    background-color: rgb(176, 176, 176);
+}
+
+.hide {
+    display: none;
+}
+
+#question {
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.correct {
+    background-color: rgb(0, 255, 85);
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.incorrect {
+    background-color: rgb(238, 41, 41);
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.over {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+#score {
+    font-size: 26px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
+}
+
+#submit-btn {
+    margin-top: 10px;
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.score-card {
+    text-align: center;
+}
+
+.scores ol {
+    text-align: left;
+    padding-left: 40%;
+}
+
+#highscore {
+    margin-left: 15px;
+}
