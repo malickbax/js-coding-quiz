@@ -23,7 +23,7 @@ http://malickbax.github.io/js-coding-quiz
 ## Usage
 Open the deployed URL above and press the Start button to begin the quiz. Choosing an incorrect answer will deduct ten seconds from your time. Time left is displayed on the top right.
 
-## Application Screenshot
+## Screenshot
 ![Screenshot](/assets/img/Screenshot.png)
 
 ## More Projets
